@@ -21,6 +21,7 @@ header h1 {
   font-size: 4rem;
   display: flex;
   justify-content: center;
+  font-weight: bold;
 }
 header nav {
   font-family: "Righteous", cursive;
@@ -28,21 +29,28 @@ header nav {
 header nav ul {
   display: flex;
   justify-content: space-evenly;
+  flex-direction: row;
 }
 header nav ul li a {
   font-size: 1.5rem;
-  padding: 1rem;
+  margin: 3em;
+  padding: 0.75em 0.75em;
+  transition: a 4500ms;
+  display: block;
+  color: #ce6e48;
+  box-shadow: 0 0 8px 8px black inset;
 }
 header nav ul li a:hover {
-  color: #8d533c;
-  transition: 1ms;
+  color: rgb(252, 124, 19);
+  -webkit-text-decoration: underline solid currentColor;
+          text-decoration: underline solid currentColor;
+  transition: all 0.75s ease;
+  background-color: rgb(116, 38, 14);
 }
 
 body {
   font-size: 16px;
 }
-body nav {
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
+body main {
+  border-top: solid 3px rgba(85, 45, 7, 0.4196078431);
 }/*# sourceMappingURL=main.css.map */

@@ -25,6 +25,7 @@ header {
       font-size: 4rem;
       display: flex;
       justify-content: center;
+      font-weight: bold;
    }
 
    nav {
@@ -33,15 +34,25 @@ header {
       ul {
          display: flex;
          justify-content: space-evenly;
+         flex-direction: row;
 
          li a {
             font-size: 1.5rem;
-            padding: 1rem;
+            margin: 3em;
+            padding: 0.75em 0.75em;
+            transition: a 4500ms;
+            display: block;
+            color: #ce6e48;
+            //Setting this here and not below makes it so this is already set to the a link and doesn't need to transition in with the colour making it look funky.
+            box-shadow: 0 0 8px 8px black inset;
          }
 
          li a:hover {
-            color: #8d533c;
-            transition: 1ms;
+            color: rgb(252, 124, 19);
+            text-decoration: underline solid currentColor;
+            transition: all 0.75s ease;
+            background-color: rgb(116, 38, 14);
+            // box-shadow: 0 0 8px 8px black inset; I've left it down here incase I need to remember what I meant with the comment above.
          }
       }
    }
@@ -50,9 +61,7 @@ header {
 body {
    font-size: 16px;
 
-   nav {
-      display: flex;
-      justify-content: space-evenly;
-      flex-direction: column;
+   main {
+      border-top: solid 3px #552d076b;
    }
 }
