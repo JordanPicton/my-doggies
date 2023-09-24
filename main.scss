@@ -1,9 +1,16 @@
+$background: #2E1F27;
+$secondary: #854D27;
+$tertiary: #DD7230;
+$quaternary: #F4C95D;
+$textcol: #E7E393;
+
 html {
-   background-color: black;
-   color: white;
+   background-color: $background;
+   color: $textcol;
    display: flex;
    justify-content: center;
 
+   //Below is the font families I want to use so they're here for me to copy.
    // font-family: "Righteous", cursive;
    // font-family: "Roboto", sans-serif;
 }
@@ -21,7 +28,7 @@ h6 {
 
 header {
    h1 {
-      color: #6d5044;
+      color: $secondary;
       font-size: 4.5em;
       display: flex;
       justify-content: center;
@@ -37,29 +44,29 @@ header {
          flex-direction: row;
 
          li a {
-            font-size: 1.5rem;
-            margin: 3em;
+            font-size: 2rem;
+            margin: 1em;
             padding: 0.75em 0.75em;
-            transition: a 4500ms;
+            transition: a 4000ms;
             display: block;
-            color: #ce6e48;
+            color: $secondary;
             //Setting this here and not below makes it so this is already set to the a link and doesn't need to transition in with the colour making it look funky.
-            box-shadow: 0 0 8px 8px black inset;
+            box-shadow: 0 0 12px 12px $background inset;
          }
 
          li a:hover {
-            color: rgb(252, 124, 19);
+            color: $quaternary;
             text-decoration: underline solid currentColor;
             transition: all 0.75s ease;
-            background-color: rgb(116, 38, 14);
-            // box-shadow: 0 0 8px 8px black inset; I've left it down here incase I need to remember what I meant with the comment above.
+            background-color: $secondary;
+            // box-shadow: 0 0 8px 8px primary inset; I've left it down here incase I need to remember what I meant with the comment above.
          }
       }
    }
 }
 
 body {
-   font-size: 16px;
+   font-size: 18px;
 
    h2 {
       font-size: 3.25em;
@@ -67,6 +74,15 @@ body {
 
    main {
       margin: 0 5em;
-      border-top: solid 3px #552d076b;
+      border-top: solid 3px $quaternary;
+   }
+
+   a {
+      color: $quaternary;
+   }
+
+   a:hover {
+      color: $secondary;
+      transition: all 300ms;
    }
 }
