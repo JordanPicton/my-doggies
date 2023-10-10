@@ -85,4 +85,8 @@ body {
       color: $secondary;
       transition: all 300ms;
    }
+
+   .main-content p::first-letter {
+      initial-letter: 2 1; //This sets the initial(first letter to be as big as <x lines> then <offset by x lines (setting it to 3 for example will make it start on the third line)>)
+   }
 }

@@ -64,4 +64,7 @@ body a {
 body a:hover {
   color: #854D27;
   transition: all 300ms;
+}
+body .main-content p::first-letter {
+  initial-letter: 2 1;
 }/*# sourceMappingURL=main.css.map */
