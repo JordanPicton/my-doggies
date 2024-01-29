@@ -3,6 +3,7 @@ $secondary: #854D27;
 $tertiary: #DD7230;
 $quaternary: #F4C95D;
 $textcol: #E7E393;
+$transparent: #ffffff00;
 
 html {
    background-color: $background;
@@ -33,6 +34,7 @@ header {
       display: flex;
       justify-content: center;
       font-weight: bold;
+      background-image: url("https://as2.ftcdn.net/v2/jpg/04/46/59/73/1000_F_446597392_IouFARqqxFSEzCJwyRc6RXogz9ZxQNsQ.jpg");
    }
 
    nav {
