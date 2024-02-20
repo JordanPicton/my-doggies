@@ -5,7 +5,10 @@ html {
   justify-content: center;
 }
 
-h1,
+h1 {
+  padding: 0;
+}
+
 h2,
 h3,
 h4,
@@ -22,7 +25,8 @@ header h1 {
   display: flex;
   justify-content: center;
   font-weight: bold;
-  background-image: url("https://as2.ftcdn.net/v2/jpg/04/46/59/73/1000_F_446597392_IouFARqqxFSEzCJwyRc6RXogz9ZxQNsQ.jpg");
+  background: url("images/banner.webp") no-repeat;
+  background-size: cover;
 }
 header nav {
   font-family: "Righteous", cursive;
