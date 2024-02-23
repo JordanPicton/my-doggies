@@ -1,6 +1,6 @@
 <h1 align="center">My Doggies - Website</h1>
 
-<span style="display: flex; justify-content: center; flex-direction: row;">
+<span style="display: flex; align-items: center; justify-content: center; flex-direction: row;">
     <img alt="GitHub forks" src="https://img.shields.io/github/forks/JordanPicton/my-doggies?style=plastic&color=%239F2B68"> <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/JordanPicton/my-doggies?style=plastic&color=%239F2B68"> <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/JordanPicton/my-doggies?style=plastic&color=%239F2B68"> <img alt="GitHub commits since latest release (branch)" src="https://img.shields.io/github/commits-since/JordanPicton/my-doggies/development?style=plastic&color=%239F2B68"> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/JordanPicton/my-doggies/development?display_timestamp=author&style=plastic&color=%239F2B68">
 
 </span>
